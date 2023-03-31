@@ -3,13 +3,23 @@
 #                                Koan #02: Pipes
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# Instructions: When you come to an exercise, fill in the blank, un-comment the
-# line (Ctrl+Shift+C on Windows, Cmd+Shift+C on Macs), and execute the code in
-# the console (Ctrl/Cmd+Return). If the chunk spans multiple lines, highlight
-# the whole chunk or simply put your cursor at the end of the last line. Then
-# save (Ctrl/Cmd+S) and test that your answers are correct (Ctrl/Cmd+Shift+T).
-# When you finish the koan with 100%, knit it to html (Ctrl/Cmd+Shift+K) and
-# submit the html file on Canvas!
+# Embrace the elegance of the magrittr pipe: %>% , where your data flows
+# seamlessly through tidyverse transformations. As you explore the art of
+# applying functions with the %>%, the intricacies of data wrangling shall
+# unfold before your eyes. With every pipe you craft, your mastery of data
+# manipulation shall grow, bestowing upon you the power to reshape and refine
+# your data with ease.
+
+# To conquer this challenge:
+# 1. When facing an exercise, bravely fill in the blank and prepare for action.
+# 2. Liberate the code from its comment chains (Ctrl+Shift+C on Windows,
+#    Cmd+Shift+C on Macs).
+# 3. Then place your cursor at the end of the last line of the chunk and command
+#    it to run in the console (Ctrl/Cmd+Return).
+# 4. Preserve your progress by saving (Ctrl/Cmd+S) and verifying your answers
+#    (Ctrl/Cmd+Shift+T).
+# 5. Once you've achieved 100% mastery, transform your work into an html
+#    treasure (Ctrl/Cmd+Shift+K) and share your spoils on Canvas!
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -22,6 +32,8 @@
 # the tidyverse to your current R session:
 
 library(tidyverse)
+
+# Pipe hotkeys: Ctrl/Cmd+Shift+M ("M" for Magrittr pipe).
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

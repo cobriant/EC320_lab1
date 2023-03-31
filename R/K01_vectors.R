@@ -3,6 +3,13 @@
 #                                Koan #01: Vectors
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+# Embark on the journey of vectors, where the heart of data organization thrives.
+# As you master the art of creating and manipulating vectors, the foundations of
+# R shall reveal themselves. With each step, your understanding of these
+# versatile data structures shall deepen, empowering you to harness their
+# potential in data analysis.
+
+# But first! A word on hotkeys:
 # I'm a big fan of learning to use hotkeys: I think it makes programming easier
 # and more natural. Hotkeys also help you remember to do things like save your
 # work often and test your code regularly. Here are a few of the ones I use all
@@ -35,13 +42,16 @@
 # html, and you should go through your code line by line until you find the
 # error.
 
-# Instructions: When you come to an exercise, fill in the blank, un-comment the
-# line (Ctrl+Shift+C on Windows, Cmd+Shift+C on Macs), and execute the code in
-# the console (Ctrl/Cmd+Return). If the chunk spans multiple lines, highlight
-# the whole chunk or simply put your cursor at the end of the last line. Then
-# save (Ctrl/Cmd S) and test that your answers are correct (Ctrl/Cmd+Shift+T).
-# When you finish the koan with 100%, knit it to html (Ctrl/Cmd+Shift+K) and
-# submit the html file on Canvas!
+# To conquer this challenge:
+# 1. When facing an exercise, bravely fill in the blank and prepare for action.
+# 2. Liberate the code from its comment chains (Ctrl+Shift+C on Windows,
+#    Cmd+Shift+C on Macs).
+# 3. Then place your cursor at the end of the last line of the chunk and command
+#.   it to run in the console (Ctrl/Cmd+Return).
+# 4. Preserve your progress by saving (Ctrl/Cmd+S) and verifying your answers
+#.   (Ctrl/Cmd+Shift+T).
+# 5. Once you've achieved 100% mastery, transform your work into an html
+#    treasure (Ctrl/Cmd+Shift+K) and share your spoils on Canvas!
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #
