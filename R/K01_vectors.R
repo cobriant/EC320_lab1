@@ -21,6 +21,7 @@
 # Comment/Uncomment lines         Ctrl+Shift+C     Cmd+Shift+C   Code > Comment/uncomment
 # Move cursor to the beginning of a line           Ctrl+A
 # Move cursor to the end of a line                 Ctrl+E
+# Abort a command                                  Ctrl+C or Esc
 
 # Here's a new hotkey to add: to test your answers to these koans, reassign
 # Ctrl/Cmd+Shift+T to be "Run a Test File". Here's how to do that:
