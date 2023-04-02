@@ -1,5 +1,7 @@
 # EC320 Lab #1
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F-Xfgmd46zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Lab is on **Wednesday 4/5 from 4-5:20pm**. Find the link to join the Zoom meeting on Canvas.
 I'll also have a Zoom office hour on **Friday 4/7 from 8-9am** to help with any last minute questions about the lab assignment for the week.
 
