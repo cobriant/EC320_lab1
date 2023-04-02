@@ -79,11 +79,11 @@ In RStudio, go to the lower righthand panel and hit the folder R. This takes you
 | ----- | ----- | ----- |
 | 1 | what is good code? | [x] `K01_vectors` <br />[x] `K02_pipe` |
 | 2 | basic data analytics: the tidied data format, creating tibbles, plotting data using qplot, and linear regression | [ ] `K03_tibbles` <br />[ ] `K04_qplot` <br />[ ] `K05_lm` |
-| 3 | stats in R: using the rnorm and rt families | [ ] `K06_rnorm` <br />[ ] `K07_dnorm` <br />[ ] `K08_rt` |
-| 4 | typeset math using LaTeX: symbols and alignment | [ ] `K09_latex`|
+| 3 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [ ] `K06_dplyr1` <br />[ ] `K07_dplyr2` <br />[ ] `K08_dplyr3` |
+| 4 | dplyr murder mystery | [ ] `K09_leftjoin` <br />[ ] `K10_murder_mystery` |
 | 5 | midterm review | |
-| 6 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [ ] `K10_dplyr1` <br />[ ] `K11_dplyr2` <br />[ ] `K12_dplyr3` |
-| 7 | dplyr murder mystery | [ ] `K13_leftjoin` <br />[ ] `K14_murder_mystery`|
-| 8 | ggplot2 aesthetic mappings: axis, color, size | [ ] `K15_qplot_to_ggplot` <br />[ ] `K16_ggplot_aes` |
-| 9 | ggplot2 geoms: histograms, density plots, vertical and horizontal lines and annotations, scatterplots, boxplots, and animations! | [ ] `K17_ggplot_single_var` <br />[ ] `K18_ggplot_two_vars` |
+| 6 | typeset math using LaTeX: symbols and alignment | [ ] `K11_latex`|
+| 7 | ggplot2 aesthetic mappings: axis, color, size | [ ] `K12_qplot_to_ggplot` <br />[ ] `K13_ggplot_aes` |
+| 8 | ggplot2 geoms: histograms, density plots, vertical and horizontal lines and annotations, scatterplots, boxplots, and animations! | [ ] `K14_ggplot_single_var` <br />[ ] `K15_ggplot_two_vars` |
+| 9 | lm() transformations | |
 | 10 | final review | |
