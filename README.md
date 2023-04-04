@@ -41,6 +41,11 @@ Install qelp (quick help): an alternative set of beginner friendly help docs I c
 ```{r}
 install.packages("Rcpp", dependencies = TRUE)
 install.packages("devtools", dependencies = TRUE)
+```
+
+Type "yes" in your console and then hit enter when you're asked if you want to install from sources. Then you can run the following:
+
+```{r}
 library(devtools)
 install_github("cobriant/qelp")
 ```
