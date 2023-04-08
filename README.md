@@ -66,17 +66,16 @@ Find the file (probably in your downloads folder). On Macs, opening the file wil
 
 In RStudio, go to the lower righthand panel and hit the folder R. This takes you to a list of two exercises (koans) you’ll complete before Friday at 5pm. The first teaches you about vectors and the second teaches you about pipes. Read the introduction below and then jump into the koans: there's no reason to wait until lab to get started on this.
 
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-01.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-02.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-03.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-04.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-05.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-06.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-07.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-08.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-09.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-10.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-11.png)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-01.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-02.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-03.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-04.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-05.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-06.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-07.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-08.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-09.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-10.jpg)
 
 ## Tentative Lab Schedule
 
