@@ -82,12 +82,12 @@ In RStudio, go to the lower righthand panel and hit the folder R. This takes you
 | Week | Lab | Koans |
 | ----- | ----- | ----- |
 | 1 | what is good code? | [x] `K01_vectors` <br />[x] `K02_pipe` |
-| 2 | basic data analytics: the tidied data format, creating tibbles, drawing plots using ggplot, and linear regression | [ ] `K03_tibbles` <br />[ ] `K04_ggplot_intro` |
-| 3 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [ ] `K05_dplyr1` <br />[ ] `K06_dplyr2` <br />[ ] `K07_dplyr3` |
-| 4 | dplyr murder mystery | [ ] `K08_leftjoin` <br />[ ] `K09_murder_mystery` |
+| 2 | basic data analytics: the tidied data format, creating tibbles, drawing plots using ggplot, and linear regression | [x] `K03_tibbles` <br />[x] `K04_ggplot_intro` |
+| 3 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [x] `K05_dplyr1` <br />[x] `K06_dplyr2` <br />[x] `K07_dplyr3` |
+| 4 | dplyr murder mystery | [x] `K08_leftjoin` <br />[x] `K09_murder_mystery` |
 | 5 | midterm review | |
-| 6 | typeset math using LaTeX: symbols and alignment | [ ] `K10_latex`|
-| 7 | intermediate ggplot: aesthetic mappings, geoms, and annotations | [ ] `K11_ggplot_aes` <br />[ ] `K12_ggplot_geom` <br />[ ] `K13_ggplot_annotations`|
-| 8 | advanced ggplot: scales and arranging plots, animations, and maps! | [ ] `K14_ggplot_scales` <br />[ ] `K15_animations` <br />[ ] `K16_ggplot_maps` |
-| 9 | lm() transformations | [ ] `K17_advanced_lm` |
+| 6 | typeset math using LaTeX; Love Island data project | [x] `LaTeX` <br />[x] `love_island` |
+| 7 | intermediate ggplot: aesthetic mappings, geoms, and annotations | [x] `K10_gapminder` <br />[x] `K11_ggplot_aes`|
+| 8 | ggplot geoms and lm transformations | [x] `K12_ggplot_geom` <br />[x] `K13_lm` |
+| 9 | final data project | [ ] `multicollinearity` |
 | 10 | final review | |
