@@ -4,7 +4,7 @@ https://youtu.be/F-Xfgmd46zM
 
 Prep: Setting up your Workspace (see below)
 
-Assignment: `K01_vectors.R` and `K02_pipe.R`. Upload your knitted html files to Canvas under Lab 1.
+Assignment: `K01_vectors.R` and `K02_pipe.R`. Upload your knitted html files to Canvas.
 
 ## Setting up your Workspace
 
