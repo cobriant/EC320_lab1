@@ -21,7 +21,7 @@ First things first, you should decide which computer you'd like to do your progr
 
 Go here: https://cran.r-project.org/ and follow the instructions to download R for your Linux, Windows, or Mac. You should download the latest release. 
 
-Mac users: make sure you know whether you have an Apple silicon mac or an older intel-based mac and make sure that you download the correct version of R. If you have an apple silicon mac, you'll also need to install xquartz: https://www.xquartz.org/.
+Mac users: make sure you know whether you have an Apple silicon mac or an older intel-based mac and make sure that you download the correct version of R. If you're using a mac, you'll also need to install xquartz: https://www.xquartz.org/.
 
 ### Install RStudio
 
@@ -41,6 +41,11 @@ Install qelp (quick help): an alternative set of beginner friendly help docs I c
 ```{r}
 install.packages("Rcpp", dependencies = TRUE)
 install.packages("devtools", dependencies = TRUE)
+```
+
+Type "yes" in your console and then hit enter when you're asked if you want to install from sources. Then you can run the following:
+
+```{r}
 library(devtools)
 install_github("cobriant/qelp")
 ```
@@ -61,29 +66,28 @@ Find the file (probably in your downloads folder). On Macs, opening the file wil
 
 In RStudio, go to the lower righthand panel and hit the folder R. This takes you to a list of two exercises (koans) you’ll complete before Friday at 5pm. The first teaches you about vectors and the second teaches you about pipes. Read the introduction below and then jump into the koans: there's no reason to wait until lab to get started on this.
 
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-01.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-02.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-03.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-04.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-05.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-06.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-07.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-08.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-09.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-10.png)
-![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-11.png)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-01.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-02.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-03.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-04.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-05.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-06.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-07.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-08.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-09.jpg)
+![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-10.jpg)
 
 ## Tentative Lab Schedule
 
 | Week | Lab | Koans |
 | ----- | ----- | ----- |
 | 1 | what is good code? | [x] `K01_vectors` <br />[x] `K02_pipe` |
-| 2 | basic data analytics: the tidied data format, creating tibbles, plotting data using qplot, and linear regression | [ ] `K03_tibbles` <br />[ ] `K04_qplot` <br />[ ] `K05_lm` |
-| 3 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [ ] `K06_dplyr1` <br />[ ] `K07_dplyr2` <br />[ ] `K08_dplyr3` |
-| 4 | dplyr murder mystery | [ ] `K09_leftjoin` <br />[ ] `K10_murder_mystery` |
+| 2 | basic data analytics: the tidied data format, creating tibbles, drawing plots using ggplot, and linear regression | [x] `K03_tibbles` <br />[x] `K04_ggplot_intro` |
+| 3 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [x] `K05_dplyr1` <br />[x] `K06_dplyr2` <br />[x] `K07_dplyr3` |
+| 4 | dplyr murder mystery | [x] `K08_leftjoin` <br />[x] `K09_murder_mystery` |
 | 5 | midterm review | |
-| 6 | typeset math using LaTeX: symbols and alignment | [ ] `K11_latex`|
-| 7 | ggplot2 aesthetic mappings: axis, color, size | [ ] `K12_qplot_to_ggplot` <br />[ ] `K13_ggplot_aes` |
-| 8 | ggplot2 geoms: histograms, density plots, vertical and horizontal lines and annotations, scatterplots, boxplots, and animations! | [ ] `K14_ggplot_single_var` <br />[ ] `K15_ggplot_two_vars` |
-| 9 | lm() transformations | |
+| 6 | typeset math using LaTeX; Love Island data project | [x] `LaTeX` <br />[x] `love_island` |
+| 7 | intermediate ggplot: aesthetic mappings, geoms, and annotations | [x] `K10_gapminder` <br />[x] `K11_ggplot_aes`|
+| 8 | ggplot geoms and lm transformations | [x] `K12_ggplot_geom` <br />[x] `K13_lm` |
+| 9 | final data project | [ ] `multicollinearity` |
 | 10 | final review | |
