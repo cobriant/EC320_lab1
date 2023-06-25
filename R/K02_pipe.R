@@ -3,13 +3,6 @@
 #                                Koan #02: Pipes
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# Embrace the elegance of the magrittr pipe: %>% , where your data flows
-# seamlessly through tidyverse transformations. As you explore the art of
-# applying functions with the %>%, the intricacies of data wrangling shall
-# unfold before your eyes. With every pipe you craft, your mastery of data
-# manipulation shall grow, bestowing upon you the power to reshape and refine
-# your data with ease.
-
 # To conquer this challenge:
 # 1. When facing an exercise, bravely fill in the blank and prepare for action.
 # 2. Liberate the code from its comment chains (Ctrl+Shift+C on Windows,
@@ -43,23 +36,25 @@ library(tidyverse)
 
 # Without using a pipe:
 min(c(6, 3, 2))
-# Using a pipe:
+# Using a pipe just takes the data that comes before and applies the function
+# that comes after:
 c(6, 3, 2) %>% min()
 
-# 1. Create a vector using c() and write two ways to find its sum, one without
+# 1. Create a vector using `c()` and write two ways to find its sum, one without
 # using a pipe and one with a pipe. (Warning: the tests for this koan look at the
 # code you write, not just how the code evaluates. So you'll need to make sure
 # that you're using my style especially with respect to spaces in order for the
 # tests to pass. For example, if you look at the code above, just like in
 # English, I put one space after a comma. I put a space before and after the
 # pipe. I put no spaces inside `min()`. I recommend following my stylistic
-# choices so that your tests will always pass and your code looks neat and
-# professional.)
+# choices so that your tests will always pass and your code is aligned with the
+# ways most other people use the tidyverse.)
 
 #1@
 
 # Without using a pipe:
 # __
+
 # Using a pipe:
 # __
 
@@ -142,16 +137,22 @@ c(3, 9, 5) %>%
 # Notice I used a period `.` to indicate that I wanted the 3 to be piped into
 # the second argument of rep(), not the first.
 
-# 3. Use pipes and a period to take a numeric vector, find its sum (I'll call
-# that sum s), and then generate the sequence going from 1 to s using `:`.
+# 3. Use pipes and a period to take the numeric vector 3:6, pipe this vector
+# into the `prod()` function to compute the product of those numbers (should be
+# 360), then pipe that result in the `to` argument of the function `seq()` to
+# generate a vector that is the sequence from 0 to 360 increasing by 5 each step.
+
+# To find out more about `seq()`:
+?qelp::seq
 
 #3@
 
-# __ %>%
+# 3:6 %>%
 #   __ %>%
 #   __
 
 #@3
+
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

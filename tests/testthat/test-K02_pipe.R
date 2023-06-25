@@ -18,7 +18,7 @@ test_that("K02: Question 2", {
 test_that("K02: Question 3", {
   skip_incomplete(K02, 3)
   expect_true(all(c(
-    str_detect(str_match_q(K02, 3)[[1]], "sum\\(\\) %>%"),
-    str_detect(str_match_q(K02, 3)[[1]], "1:.")
+    str_detect(str_match_q(K02, 3)[[1]], "prod\\(\\)"),
+    str_detect(str_match_q(K02, 3)[[1]], "seq\\(0, to = ., by = 5\\)")
   )))
 })
