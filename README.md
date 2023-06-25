@@ -2,20 +2,15 @@
 
 https://youtu.be/F-Xfgmd46zM
 
-Lab is on **Wednesday 4/5 from 4-5:20pm**. Find the link to join the Zoom meeting on Canvas.
-I'll also have a Zoom office hour on **Friday 4/7 from 8-9am** to help with any last minute questions about the lab assignment for the week.
-
 Prep: Setting up your Workspace (see below)
 
-Lab assignment: `K01_vectors.R` and `K02_pipe.R` are due Friday 4/7 at 5pm. Upload your knitted html files to Canvas under Lab 1. Collaboration is welcome, but every individual must type up and compile their own solutions on their own computers.
+Assignment: `K01_vectors.R` and `K02_pipe.R`. Upload your knitted html files to Canvas under Lab 1.
 
 ## Setting up your Workspace
 
-Follow these instructions before lab on Wednesday so that you can jump in! I'll help troubleshoot during lab if you run into problems with your installations, but please come to lab prepared by trying it yourself first.
-
 ### Grab a Computer
 
-First things first, you should decide which computer you'd like to do your programming assignments on. It can be a Mac, Windows, or Linux machine: all are equally good. I do absolutely everything on my little macbook air laptop. Please let me know ASAP (cobriant@uoregon.edu) if you don't have a computer to program on (chromebooks and ipads won't work but there are workarounds I can discuss with you). 
+First things first, you should decide which computer you'd like to do your programming assignments on. It can be a Mac, Windows, or Linux machine: all are equally good. I do absolutely everything on my little macbook air laptop. Please let me know ASAP if you don't have a computer to program on (chromebooks and ipads won't work but there are workarounds I can discuss with you). 
 
 ### Download and Install R
 
@@ -77,17 +72,3 @@ In RStudio, go to the lower righthand panel and hit the folder R. This takes you
 ![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-09.jpg)
 ![](https://github.com/cobriant/tidyverse_illustrated/blob/main/Learning%20the%20Tidyverse-10.jpg)
 
-## Tentative Lab Schedule
-
-| Week | Lab | Koans |
-| ----- | ----- | ----- |
-| 1 | what is good code? | [x] `K01_vectors` <br />[x] `K02_pipe` |
-| 2 | basic data analytics: the tidied data format, creating tibbles, drawing plots using ggplot, and linear regression | [x] `K03_tibbles` <br />[x] `K04_ggplot_intro` |
-| 3 | intro to dplyr: filter, select, mutate, summarize, group_by, arrange, slice | [x] `K05_dplyr1` <br />[x] `K06_dplyr2` <br />[x] `K07_dplyr3` |
-| 4 | dplyr murder mystery | [x] `K08_leftjoin` <br />[x] `K09_murder_mystery` |
-| 5 | midterm review | |
-| 6 | typeset math using LaTeX; Love Island data project | [x] `LaTeX` <br />[x] `love_island` |
-| 7 | intermediate ggplot: aesthetic mappings, geoms, and annotations | [x] `K10_gapminder` <br />[x] `K11_ggplot_aes`|
-| 8 | ggplot geoms and lm transformations | [x] `K12_ggplot_geom` <br />[x] `K13_lm` |
-| 9 | final data project | [ ] `multicollinearity` |
-| 10 | final review | |
