@@ -3,13 +3,7 @@
 #                                Koan #01: Vectors
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# Embark on the journey of vectors, where the heart of data organization thrives.
-# As you master the art of creating and manipulating vectors, the foundations of
-# R shall reveal themselves. With each step, your understanding of these
-# versatile data structures shall deepen, empowering you to harness their
-# potential in data analysis.
-
-# But first! A word on hotkeys:
+# First a quick word on hotkeys:
 # I'm a big fan of learning to use hotkeys: I think it makes programming easier
 # and more natural. Hotkeys also help you remember to do things like save your
 # work often and test your code regularly. Here are a few of the ones I use all
